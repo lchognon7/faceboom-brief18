@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Ubuntu, system-ui, sans-serif;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -.01em;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: 2rem;
+    line-height: 1.7;
+    background-color:rgb(206, 175, 108);
+    margin:0;
+    }
+
+  header{
+    background-color:rgba(0, 0, 0, 0.267);
+  }
+
+  h1{
+    font-size:3rem;
+    text-align:center;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+  }
+
+main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+main img{
+  margin:25px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.733);
+  width:30vw;
+}
+
+a{
+  color:rgb(85, 37, 10);
+}
+
+footer{
+  font-size:0.8rem;
+  text-align:center;
+  font-family: 'Comfortaa', cursive;
+}
+
+}
+
+@media (min-width: 768px) {
+
+  body {
+    font-size: 2rem;
+    line-height: 1.7;
+    background-color:rgb(206, 175, 108);
+    margin:0;
+    }
+
+  header{
+    background-color:rgba(85, 37, 10, 0.219);
+  }
+
+  h1{
+    font-size:4rem;
+    text-align:center;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+  }
+
+main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+   }
+
+main img{
+  margin:35px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.733);
+  width:30vw;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	-webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+a{
+  color:rgb(85, 37, 10);
+}
+
+footer{
+  font-size:1.2rem;
+  text-align:center;
+  font-family: 'Comfortaa', cursive;
+}
+}
